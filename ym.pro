@@ -13,7 +13,7 @@ SOURCES += decoderymfactory.cpp \
            libym/ym_load.cpp \
            libym/ym_music.cpp
 
-CONFIG += warn_on plugin link_pkgconfig c++11
+CONFIG += warn_on plugin link_pkgconfig
 
 TEMPLATE = lib
 

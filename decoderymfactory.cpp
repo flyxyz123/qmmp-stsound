@@ -2,7 +2,7 @@
 #include "decoder_ym.h"
 
 #include <QFileInfo>
-#include <QMessageBox>
+#include <QtWidgets/QMessageBox>
 
 bool DecoderYmFactory::canDecode(QIODevice *) const
 {

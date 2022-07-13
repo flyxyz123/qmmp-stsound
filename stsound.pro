@@ -2,16 +2,18 @@
 # https://github.com/cspiegel/qmmp-adplug
 # https://github.com/cspiegel/qmmp-openmpt
 
-HEADERS += decoderymfactory.h \
-           decoder_ym.h
+HEADERS += decoderstsoundfactory.h \
+           decoder_stsound.h \
+           stsoundhelper.h
 
-SOURCES += decoderymfactory.cpp \
-           decoder_ym.cpp \
-           libym/ym_digidrum.cpp \
-           libym/ym_lzhlib.cpp \
-           libym/ym_2149ex.cpp \
-           libym/ym_load.cpp \
-           libym/ym_music.cpp
+SOURCES += decoderstsoundfactory.cpp \
+           decoder_stsound.cpp \
+           stsoundhelper.cpp \
+           libstsound/ym_digidrum.cpp \
+           libstsound/ym_lzhlib.cpp \
+           libstsound/ym_2149ex.cpp \
+           libstsound/ym_load.cpp \
+           libstsound/ym_music.cpp
 
 CONFIG += warn_on plugin link_pkgconfig
 
